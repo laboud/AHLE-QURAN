@@ -10,38 +10,46 @@ header {
     justify-content: space-between;
     padding: 10px 8%;
     height: 50px;
-    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
 }
+
 header .logo {
     color: #ea1f33;
     font-size: 25px;
     font-weight: bold;
 }
+
 header .logo span {
     color: #000;
 }
+
 .menu {
     display: flex;
 }
+
 .menu li {
     list-style: none;
     margin: 0 15px;
 }
+
 .menu li a {
     font-size: 14px;
     color: #000;
     font-weight: 300;
     transition: 0.2s;
 }
+
 .menu li a:hover {
     color: #ea1f33;
 }
+
 header button {
     background-color: #ea1f33;
     cursor: pointer;
     color: #fff;
     padding: 5px 25px;
 }
+
 #home {
     margin-top: 50px;
     height: calc(100vh - 50px);
@@ -52,6 +60,17 @@ header button {
     position: relative;
 }
 
+.QURAN-a {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.QURAN-a img {
+    width: 300px;
+    border-radius: 20px;
+    border: solid 10px black;
+}
 
 .im-ge {
     width: 100% !important;
