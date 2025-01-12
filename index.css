@@ -64,14 +64,23 @@ header button {
     display: flex;
     flex-direction: column;
 
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
 }
 
 .QURAN-a img {
     width: 300px;
     border-radius: 20px;
     border: solid 10px black;
+    
 }
+.article-quran{
 
+}
 .im-ge {
     width: 100% !important;
 }
